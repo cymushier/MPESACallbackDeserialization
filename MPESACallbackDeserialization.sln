@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPESACallbackDeserialization", "MPESACallbackDeserialization\MPESACallbackDeserialization.csproj", "{BD2B35DB-F27F-4337-A357-D138F49DC1CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD2B35DB-F27F-4337-A357-D138F49DC1CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD2B35DB-F27F-4337-A357-D138F49DC1CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD2B35DB-F27F-4337-A357-D138F49DC1CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD2B35DB-F27F-4337-A357-D138F49DC1CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14DCBC5B-AC15-48F5-BCDB-D73982520DEB}
+	EndGlobalSection
+EndGlobal
