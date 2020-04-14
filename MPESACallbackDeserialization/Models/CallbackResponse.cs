@@ -37,6 +37,18 @@ namespace MPESACallbackDeserialization.Models
                         }
 
                     }
+                    else if (prop.PropertyType.Name == "Double")
+                    {
+                        if (double.TryParse(sourceValue.Value, out double doubleValue))
+                        {
+                            prop.SetValue(concreteT, doubleValue);
+                        }
+                        else
+                        {
+                            prop.SetValue(concreteT, sourceValue.Value);
+                        }
+
+                    }
                     else
                     {
                         prop.SetValue(concreteT, sourceValue.Value);
