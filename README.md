@@ -1,9 +1,10 @@
 # MPESA Callback Data Deserialization
-MPESA callback de-serialization using System.Text.Json implementation
+MPESA callback de-serialization using `System.Text.Json` implementation
 
 ## Background
 With the introduction of `System.Text.Json`, dynamic serialization is not yet supported - slated for [.NET 5](https://github.com/dotnet/runtime/projects/25#card-35158233). This therefore 
-means that serialization within a controller for some dynamic parameters may not be possible. 
+means that serialization within a controller for some dynamic parameters may not be possible unless you revert back to [Newtonsoft.Json](https://www.newtonsoft.com/json). 
+This implementation may also support Newtonsoft.Json when serializing to a concrete type is needed, as long as the converter is updated to reflect that.
 
 ## Abc...
 1.  Go through the models definitions in the `Models` folder. These define the base data for MPESA callback data.
