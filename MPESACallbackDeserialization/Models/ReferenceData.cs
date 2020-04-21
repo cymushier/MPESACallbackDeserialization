@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MPESACallbackDeserialization.Models
+﻿namespace MPESACallbackDeserialization.Models
 {
     /// <summary>
     /// Reference data

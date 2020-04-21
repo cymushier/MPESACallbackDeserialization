@@ -5,9 +5,9 @@ using System.Text.Json;
 
 namespace MPESACallbackDeserialization
 {
-    class Program
+    public static class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             string jsonData = ReadJson();
             var eventData = JsonSerializer.Deserialize<CallbackResponse>(jsonData);
@@ -21,7 +21,7 @@ namespace MPESACallbackDeserialization
             Console.WriteLine($"TransactionReceipt: {callbackData.TransactionReceipt}");
         }
 
-        static string ReadJson()
+        public static string ReadJson()
         {
             string fileName = "Files/mpesa-results.json";
             return File.ReadAllText(fileName);

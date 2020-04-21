@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPESACallbackDeserialization", "MPESACallbackDeserialization\MPESACallbackDeserialization.csproj", "{BD2B35DB-F27F-4337-A357-D138F49DC1CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MPESACallbackDeserialization", "MPESACallbackDeserialization\MPESACallbackDeserialization.csproj", "{BD2B35DB-F27F-4337-A357-D138F49DC1CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestMPESACallbackDeserialization", "UnitTestMPESACallbackDeserialization\UnitTestMPESACallbackDeserialization.csproj", "{72132521-EE80-4DB4-A1E4-19485AD1A732}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BD2B35DB-F27F-4337-A357-D138F49DC1CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD2B35DB-F27F-4337-A357-D138F49DC1CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD2B35DB-F27F-4337-A357-D138F49DC1CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72132521-EE80-4DB4-A1E4-19485AD1A732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72132521-EE80-4DB4-A1E4-19485AD1A732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72132521-EE80-4DB4-A1E4-19485AD1A732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72132521-EE80-4DB4-A1E4-19485AD1A732}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
